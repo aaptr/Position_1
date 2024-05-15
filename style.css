@@ -3,3 +3,155 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.section1 {
+    max-width: 1920px;
+    height: 1209px;
+    width: 100%;
+    position: relative;
+    background-color: #ECF0FD;
+    font-family: "Circular Std Book";
+}
+
+.section1__header {
+    position: absolute;
+    left: 700px;
+    top: 138px;
+    /* ставлю позиционирование текста через absolute, потому что если его центрировать, то при сужении экрана текст заходит за иконки, и выглфдит это не очень*/
+    width: 520px;
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon1 {
+    position: absolute;
+    left: 391px;
+    top: 223px;
+}
+
+.icon2 {
+    position: absolute;
+    left: 1378px;
+    top: 209px;
+}
+
+.icon3 {
+    position: absolute;
+    left: 102px;
+    top: 438px;
+}
+
+.icon4 {
+    position: absolute;
+    left: 1533px;
+    top: 466px;
+}
+
+.icon5 {
+    position: absolute;
+    left: 256px;
+    top: 780px;
+}
+
+.icon6 {
+    position: absolute;
+    left: 1435px;
+    top: 844px;
+}
+
+.section1__text-block {
+    width: 730px;
+    height: 439px;
+}
+
+.section1__bi1 {
+    position: absolute;
+    left: 595px;
+    top: 381px;
+    z-index: 2;
+}
+
+.section1__green-dots {
+    position: absolute;
+    left: 474px;
+    top: 688px;
+    z-index: 1;
+}
+
+.section1__red-dots {
+    position: absolute;
+    left: 980px;
+    top: 407px;
+    z-index: 1;
+}
+
+.section1__b1 {
+    position: absolute;
+    left: 651px;
+    top: 489px;
+    width: 618px;
+    height: 331px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.section1__b2 {
+    position: absolute;
+    left: 621px;
+    top: 437px;
+    width: 678px;
+    height: 363px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    z-index: 3;
+    box-shadow: 0px 18px 53px #d7e4f980;
+}
+
+.section1__b3 {
+    position: absolute;
+    left: 595px;
+    top: 381px;
+    width: 730px;
+    height: 391px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    z-index: 4;
+    box-shadow: 0px 18px 53px #D7E4F980;
+}
+
+.section1__quotes {
+    position: absolute;
+    left: 843px;
+    top: 409px;
+    z-index: 5;
+}
+
+.section1__text {
+    font-size: 27px;
+    line-height: 40px;
+    max-width: 566px;
+    width: 100%;
+    color: #94A2B3;
+    position: absolute;
+    left: 677px;
+    top: 487px;
+    text-align: center;
+    z-index: 6;
+}
+
+.arrow_left {
+    position: absolute;
+    left: 1124px;
+    top: 867px;
+    z-index: 7;
+}
+
+.arrow_right {
+    position: absolute;
+    left: 1184px;
+    top: 862px;
+    z-index: 7;
+}
