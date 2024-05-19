@@ -5,20 +5,25 @@
 }
 
 .section1 {
-    max-width: 1920px;
-    height: 1209px;
-    width: 100%;
     position: relative;
     background-color: #ECF0FD;
     font-family: "Circular Std Book";
 }
 
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding-top: 138px;
+    padding-bottom: 379px;
+}
+
 .section1__header {
     position: absolute;
-    left: 700px;
-    top: 138px;
-    /* ставлю позиционирование текста через absolute, потому что если его центрировать, то при сужении экрана текст заходит за иконки, и выглфдит это не очень*/
-    width: 520px;
+    left: 50%;
+    transform: translate(-50%);
+    /* top: 138px; */
+    margin: auto;
+    max-width: 520px;
     font-size: 55px;
     line-height: 70px;
     font-weight: bold;
@@ -27,71 +32,71 @@
 
 .icon1 {
     position: absolute;
-    left: 391px;
-    top: 223px;
+    left: 20.36%;
+    top: 18.44%;
 }
 
 .icon2 {
     position: absolute;
-    left: 1378px;
-    top: 209px;
+    right: 23.33%;
+    top: 17.3%;
 }
 
 .icon3 {
     position: absolute;
-    left: 102px;
-    top: 438px;
+    left: 5.3%;
+    top: 36.22%;
 }
 
 .icon4 {
     position: absolute;
-    left: 1533px;
-    top: 466px;
+    right: 12.14%;
+    top: 38.54%;
 }
 
 .icon5 {
     position: absolute;
-    left: 256px;
-    top: 780px;
+    left: 13.33%;
+    bottom: 25.48%;
 }
 
 .icon6 {
     position: absolute;
-    left: 1435px;
-    top: 844px;
+    right: 20.10%;
+    bottom: 21.59%;
 }
 
 .section1__text-block {
     width: 730px;
     height: 439px;
-}
-
-.section1__bi1 {
-    position: absolute;
-    left: 595px;
-    top: 381px;
-    z-index: 2;
+    position: relative;
+    margin: auto;
+    margin-top: 280px;
 }
 
 .section1__green-dots {
     position: absolute;
-    left: 474px;
-    top: 688px;
+    left: 0%;
+    bottom: 0%;
     z-index: 1;
+    transform: translate(-25%, 38%);
 }
 
 .section1__red-dots {
     position: absolute;
-    left: 980px;
-    top: 407px;
+    right: 0%;
+    top: 0%;
+    transform: translate(27%, 12%);
     z-index: 1;
 }
 
 .section1__b1 {
     position: absolute;
-    left: 651px;
-    top: 489px;
-    width: 618px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0%;
+    max-width: 618px;
+    width: 100%;
     height: 331px;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -100,9 +105,11 @@
 
 .section1__b2 {
     position: absolute;
-    left: 621px;
-    top: 437px;
-    width: 678px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    max-width: 678px;
+    width: 100%;
     height: 363px;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -112,9 +119,11 @@
 
 .section1__b3 {
     position: absolute;
-    left: 595px;
-    top: 381px;
-    width: 730px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 40px;
+    max-width: 730px;
+    width: 100%;
     height: 391px;
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -124,8 +133,8 @@
 
 .section1__quotes {
     position: absolute;
-    left: 843px;
-    top: 409px;
+    left: 50%;
+    transform: translate(-50%, 17%);
     z-index: 5;
 }
 
@@ -136,22 +145,24 @@
     width: 100%;
     color: #94A2B3;
     position: absolute;
-    left: 677px;
-    top: 487px;
+    left: 50%;
+    transform: translate(-50%, 53.5%);
     text-align: center;
     z-index: 6;
 }
 
 .arrow_left {
     position: absolute;
-    left: 1124px;
-    top: 867px;
+    right: 0%;
+    bottom: 0%;
+    transform: translate(-169px, 46px);
     z-index: 7;
 }
 
 .arrow_right {
     position: absolute;
-    left: 1184px;
-    top: 862px;
+    right: 0%;
+    bottom: 0%;
+    transform: translate(-89px, 50px);
     z-index: 7;
 }
